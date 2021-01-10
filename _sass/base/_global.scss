@@ -169,6 +169,18 @@ table {
   width: 100%;
   word-wrap: break-word;
   display: inline-block;
+  
+  th {
+    line-height: 36px;
+  }
+
+  tbody {
+    tr:hover {
+      background: #EFEFEF;
+    }
+
+    line-height: 32px;
+  }
 }
 
 td,
@@ -176,6 +188,12 @@ th {
   padding: 0.5em 1em;
   border: 1px solid $border-color;
   text-align: left;
+}
+
+tbody {
+  tr:hover {
+    background: #EFEFEF;
+  }
 }
 
 table,
